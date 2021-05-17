@@ -1,0 +1,107 @@
+.imageInImageDiv {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 1000px;
+    height: 435px;
+    position: relative;
+}
+
+.fadingPhoto1 {
+    top: -455px;
+}
+
+.fadingPhoto2 {
+    top: -910px;
+}
+
+@media screen and (min-width: 900px) and (max-width: 999px) {  
+    .imageInImageDiv {
+        width: calc(1000px / 10 * 9);
+        height: calc(435px / 10 * 9);
+        margin: 18px auto 0 auto;
+    }
+    .fadingPhoto1 {
+        top: calc(-455px / 10 * 9);
+    }
+    .fadingPhoto2 {
+        top: calc(-910px / 10 * 9);
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 899px) {  
+    .imageInImageDiv {
+        width: calc(1000px / 10 * 8);
+        height: calc(435px / 10 * 8);
+        margin: 16px auto 0 auto;
+    }
+    .fadingPhoto1 {
+        top: calc(-455px / 10 * 8);
+    }
+    .fadingPhoto2 {
+        top: calc(-910px / 10 * 8);
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 799px) {  
+    .imageInImageDiv {
+        width: calc(1000px / 10 * 7);
+        height: calc(435px / 10 * 7);
+        margin: 14px auto 0 auto;
+    }
+    .fadingPhoto1 {
+        top: calc(-455px / 10 * 7);
+    }
+    .fadingPhoto2 {
+        top: calc(-910px / 10 * 7);
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 699px) {  
+    .imageInImageDiv {
+        width: calc(1000px / 10 * 6);
+        height: calc(435px / 10 * 6);    
+        margin: 12px auto 0 auto;
+    }
+    .fadingPhoto1 {
+        top: calc(-455px / 10 * 6);
+    }
+    .fadingPhoto2 {
+        top: calc(-910px / 10 * 6);
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 599px) {  
+    .imageInImageDiv {
+        width: calc(1000px / 10 * 5);
+        height: calc(435px / 10 * 5);
+        margin: 10px auto 0 auto;
+    }
+    .fadingPhoto1 {
+        top: calc(-455px / 10 * 5);
+    }
+    .fadingPhoto2 {
+        top: calc(-910px / 10 * 5);
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 499px) {  
+    .imageInImageDiv {
+        width: calc(1000px / 10 * 4);
+        height: calc(435px / 10 * 4);
+        margin: 8px auto 0 auto;
+    }
+    .fadingPhoto1 {
+        top: calc(-455px / 10 * 4);
+    }
+    .fadingPhoto2 {
+        top: calc(-910px / 10 * 4);
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 399px) {  
+    .imageInImageDiv {
+        width: calc(1000px / 10 * 3);
+        height: calc(435px / 10 * 3);
+        margin: 6px auto 0 auto;
+    }
+    .fadingPhoto1 {
+        top: calc(-455px / 10 * 3);
+    }
+    .fadingPhoto2 {
+        top: calc(-910px / 10 * 3);
+    }
+}

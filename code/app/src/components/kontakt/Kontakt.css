@@ -1,0 +1,47 @@
+.kontaktDiv {
+    color: rgb(71, 67, 67);
+    padding: 0 100px;
+}
+
+.pInKontaktDiv {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.divInKontakt {
+    margin-bottom: 40px;
+}
+
+.cardBox {
+    display: flex;
+}
+
+.kartenBild {
+    width: 500px;
+    height: auto;
+    display: block;
+}
+
+.smaller {
+    width: 60%;
+}
+
+.linkKontakt {
+    text-decoration: none;
+    color: rgb(131, 130, 130);
+}
+
+@media screen and (min-width: 300px) and (max-width: 999px) {
+    .kontaktDiv {
+        padding: 20px 15px;
+    }
+    .pInKontaktDiv {
+        font-size: 20px;
+    }
+    .smaller {
+        width: 100%;
+    }
+    .kartenBildUndLink {
+        display: none;
+    }
+}

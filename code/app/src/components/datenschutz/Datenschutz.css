@@ -1,0 +1,20 @@
+.datenschutzDiv {
+    color: rgb(71, 67, 67);
+    padding: 0 100px;
+    font-size: 12px;
+}
+
+.pInDatenschutzDiv {
+    font-size: 35px;
+    font-style: italic;
+}
+
+@media screen and (min-width: 300px) and (max-width: 999px) {
+    .datenschutzDiv {
+        padding: 20px 15px;
+        font-size: 14px;
+    }
+    .pInDatenschutzDiv {
+        font-size: 20px;
+    }
+}

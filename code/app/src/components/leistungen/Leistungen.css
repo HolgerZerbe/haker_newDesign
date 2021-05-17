@@ -1,0 +1,26 @@
+.leistungenDiv {
+    color: rgb(71, 67, 67);
+    padding: 0 100px;
+}
+
+.pInLeistungenDiv {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.leistungenDiv li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 999px) {
+    .leistungenDiv {
+        padding: 20px 15px;
+    }
+    .pInLeistungenDiv {
+        font-size: 20px;
+    }
+    .leistungenDiv li {
+        font-size: 18px;
+    }
+}

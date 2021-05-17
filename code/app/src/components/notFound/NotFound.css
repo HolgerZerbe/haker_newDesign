@@ -1,0 +1,27 @@
+.notFoundDiv {
+    color: rgb(71, 67, 67);
+    padding: 0 100px;
+    text-align: center;
+}
+
+.errorNumber {
+    font-size: 200px;
+}
+
+.errorText {
+    font-size: 50px;
+}
+@media screen and (min-width: 375px) and (max-width: 999px) {
+    .notFoundDiv {
+        padding: 20px 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .errorNumber {
+        font-size: 100px;
+    }
+    .errorText {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+}

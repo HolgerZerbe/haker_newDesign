@@ -1,0 +1,53 @@
+.noteDiv {
+    background-color: rgba(34, 28, 28, 0.6);
+    z-index: 1;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 436px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center; 
+    margin: 0 auto;
+    padding: 50px 100px;
+    position: fixed;
+    top: 140px;
+    color: rgb(141, 13, 13);
+
+}
+
+.pInNoteDiv {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.noteDiv button {
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(141, 13, 13);
+}
+@media screen and (max-width: 374px) {
+    .noteDiv {
+        padding: 20px 15px;
+        width: 100%;
+        box-sizing: border-box;
+        top: 120px;
+    }
+    .pInNoteDiv {
+        font-size: 15px;
+        padding: 0 5px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 999px) {
+    .noteDiv {
+        padding: 20px 15px;
+        width: 100%;
+        box-sizing: border-box;
+        top: 120px;
+    }
+    .pInNoteDiv {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+}

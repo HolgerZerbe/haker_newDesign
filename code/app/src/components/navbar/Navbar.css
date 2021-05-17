@@ -1,0 +1,53 @@
+.navbarDiv {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    font-size: 20px;
+    text-align: left;
+    margin-top: auto;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+
+.navbarDiv ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.linkStyle{
+    color: rgb(46, 43, 43);
+    display: inline-block;
+    padding: 0 10px;
+    text-decoration: none;
+    cursor: pointer;   
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.linkStyle:hover {
+    color: white;
+}
+@media screen and (max-width: 1000px) {
+    .navbarDiv {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navbarDiv {
+        margin-left: -40px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .navbarDiv {
+        font-size: 14px;
+    }
+    .linkStyle {
+        padding: 0 5px;
+    }
+}

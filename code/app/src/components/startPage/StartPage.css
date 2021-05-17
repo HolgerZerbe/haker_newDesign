@@ -1,0 +1,25 @@
+.startPageDiv {
+    color: rgb(71, 67, 67);
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.quote {
+    font-size: 35px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.welcome {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 300px) and (max-width: 999px) {
+    .startPageDiv {
+        padding: 20px 15px;
+        font-size: 18px;
+    }
+    .quote {
+        font-size: 20px;
+    }
+}

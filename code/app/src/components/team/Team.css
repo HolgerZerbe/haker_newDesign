@@ -1,0 +1,63 @@
+.teamDiv {
+    
+    color: rgb(71, 67, 67);
+    padding: 0 100px;
+}
+
+.pInTeamDiv {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.photoPerson {
+    width: 150px;
+    height: 200px;
+}
+.descriptionPerson {
+    margin: -5px 0 50px 20px;
+}
+
+.lastCell {
+    width: 50%;
+}
+
+.tableInTeam {
+    border: none;
+    padding: 0;
+}
+
+.tableInTeam td {
+    vertical-align:top;
+}
+@media screen and (min-width: 300px) and (max-width: 999px) {
+    .teamDiv {
+        padding: 20px 15px;
+    }
+    .pInTeamDiv {
+        font-size: 20px;
+    }
+    .teamDiv table {
+        margin-top: 20px;
+    }
+    .card {
+        flex-direction: column;
+    }
+    .descriptionPerson {
+        margin: -5px 0 50px 0px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 374px) {
+    .teamDiv table {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 99px) {
+    .teamDiv table {
+        font-size: 15px;
+    }
+}
