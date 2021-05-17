@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import './Navbar.css';
 import {NavLink} from 'react-router-dom';
+import config from "../../config.json";
+
 
 
 class Navbar extends Component {
