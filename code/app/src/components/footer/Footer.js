@@ -19,8 +19,8 @@ class Footer extends Component {
                     Telefax: 030 - 63 22 96 20<br />
                     </p>
                     <a className="linkFooter" href="mailto:anne-haker@t-online.de">anne-haker@t-online.de</a>
-                    <Link className="linkFooter" to="/impressum">Impressum</Link>
-                    <Link className="linkFooter" to="/datenschutz">Datenschutzerklärung</Link>
+                    <Link className="linkFooter" to= {config.gh_pages + "/impressum"}>Impressum</Link>
+                    <Link className="linkFooter" to= {config.gh_pages + "/datenschutz"}>Datenschutzerklärung</Link>
                 </div>
                 <div className = "divInFooter">
                     <p>Sprechzeiten:</p>
