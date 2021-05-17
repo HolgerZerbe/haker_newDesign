@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {connect} from 'react-redux';
+import config from "./config.json";
 
 import Footer from './components/footer/Footer';
 import StartPage from './components/startPage/StartPage';
@@ -26,16 +27,16 @@ class App extends Component {
         <div className="appDiv">
         <Header />
         <ImgArea />
-        {/* {this.props.showNote ? <Note /> : null} */}
         <Note />
         <div className="changingArea">
             <Switch>
-                <Route exact path="/" component={StartPage} />
-                <Route exact path="/team" component={Team} />
-                <Route exact path="/kontakt" component={Kontakt} />
-                <Route exact path="/leistungen" component={Leistungen} />
-                <Route exact path="/impressum" component={Impressum} />
-                <Route exact path="/datenschutz" component={Datenschutz} />
+                
+                <Route exact path= {config.gh_pages + "/"} component={StartPage} />
+                <Route exact path= {config.gh_pages + "/team"} component={Team} />
+                <Route exact path= {config.gh_pages + "/kontakt"} component={Kontakt} />
+                <Route exact path= {config.gh_pages + "/leistungen"} component={Leistungen} />
+                <Route exact path= {config.gh_pages + "/impressum"} component={Impressum} />
+                <Route exact path= {config.gh_pages + "/datenschutz"} component={Datenschutz} />
                 <Route component={NotFound} />
             </Switch>
         </div>
