@@ -26,6 +26,7 @@
     font-size: 25px;
     color: white;
     background-color: rgb(141, 13, 13);
+    cursor: pointer;
 }
 @media screen and (max-width: 374px) {
     .noteDiv {
