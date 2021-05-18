@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/haker_newDesign/static/css/main.46031947.chunk.css",
+    "main.css": "/haker_newDesign/static/css/main.0dff6fea.chunk.css",
     "main.js": "/haker_newDesign/static/js/main.0c8d0748.chunk.js",
     "main.js.map": "/haker_newDesign/static/js/main.0c8d0748.chunk.js.map",
     "runtime-main.js": "/haker_newDesign/static/js/runtime-main.4c777364.js",
@@ -8,15 +8,15 @@
     "static/js/2.ba316516.chunk.js": "/haker_newDesign/static/js/2.ba316516.chunk.js",
     "static/js/2.ba316516.chunk.js.map": "/haker_newDesign/static/js/2.ba316516.chunk.js.map",
     "index.html": "/haker_newDesign/index.html",
-    "precache-manifest.aa44a15000f2148d9ead12ed1ccc88c3.js": "/haker_newDesign/precache-manifest.aa44a15000f2148d9ead12ed1ccc88c3.js",
+    "precache-manifest.3319bd6d4d176dabc8af051a90f8fc9d.js": "/haker_newDesign/precache-manifest.3319bd6d4d176dabc8af051a90f8fc9d.js",
     "service-worker.js": "/haker_newDesign/service-worker.js",
-    "static/css/main.46031947.chunk.css.map": "/haker_newDesign/static/css/main.46031947.chunk.css.map",
+    "static/css/main.0dff6fea.chunk.css.map": "/haker_newDesign/static/css/main.0dff6fea.chunk.css.map",
     "static/js/2.ba316516.chunk.js.LICENSE.txt": "/haker_newDesign/static/js/2.ba316516.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4c777364.js",
     "static/js/2.ba316516.chunk.js",
-    "static/css/main.46031947.chunk.css",
+    "static/css/main.0dff6fea.chunk.css",
     "static/js/main.0c8d0748.chunk.js"
   ]
 }
