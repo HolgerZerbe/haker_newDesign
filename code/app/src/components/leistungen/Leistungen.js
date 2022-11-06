@@ -21,6 +21,8 @@ export default class Leistungen extends Component {
                     <li>Ästhetische Zahnheilkunde:<br />
                 Veneers, Implantate, Compositfüllungen, Inlays, Bleaching</li>
                     <li>Parodontosebehandlung</li>
+                    <li>Digitales Röntgen</li>
+                    <li>Hilfe bei Schmerzen</li>
                 </ul>
             </div>
         )
