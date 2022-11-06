@@ -11,7 +11,7 @@ export default function Header() {
                 <img className = "logo" src="./images/whiteLogo2.png" alt="whiteLogo" />
                 <div className="titleName">
                     <h3 className="praxisAsTitle">ZAHNARZTPRAXIS</h3>
-                    <h1 className="headlineName">ANNE HACKER</h1>
+                    <h1 className="headlineName">ANNE HAKER</h1>
                 </div>
             </div>
 
