@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import './Footer.css';
+import './Footer3.css';
 import {Link} from 'react-router-dom';
 import config from "../../config.json";
 

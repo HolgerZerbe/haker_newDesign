@@ -18,7 +18,7 @@ export default class Impressum extends Component {
             12439 Berlin<br /><br />
             Telefon: 030 – 636 15 88<br />
             Fax:  030 – 63 22 96 20<br /><br />
-            E-Mail: <a className="linkImpressum" href="mailto:anne-haker@t-online.de">anne-haker@t-online.de</a></p><br />
+            E-Mail: <a className="linkImpressum" href="mailto:praxis-anne-haker@web.de">praxis-anne-haker@web.de</a></p><br />
 
                 <p><b>ZUSTÄNDIGE AUFSICHTSBEHÖRDE:</b></p>
                 <p>Kassenzahnärztliche Vereinigung Berlin<br />
@@ -46,11 +46,17 @@ export default class Impressum extends Component {
 
 
                 <p><b>KONZEPT, DESIGN UND ENTWICKLUNG:</b></p>
+                <div className="web-developer">
+                    <div className="foto_web-developer">
+                    <img src="./images/holger_zerbe.jpg" alt="Holger_Zerbe"></img>
+
+                    </div>
                 <p>Holger Zerbe<br />
-            Web-Developer<br />
+            Praxis-Manager & Web-Developer<br />
             E-Mail: <a className="linkImpressum" href="mailto:holger.zerbe@web.de">holger.zerbe@web.de</a><br />
             Website: <a className="linkImpressum" href="https://holgerzerbe.github.io/portfolio/">https://holgerzerbe.github.io/portfolio/</a>
                 </p>
+                </div>
                 <p className="haftung"><b>Haftungshinweise:</b></p>
                 <p className="haftung"><b>Urheberrecht:</b><br />
             Dokumente, Texte, Grafiken, Software und Quelltexte, die Bestandteile dieser Website darstellen und von diesem Server heruntergeladen werden können, sind urheberrechtlich für den Betreiber bzw. den Vertragspartner der die entsprechenden Bestandteile dieser Webseite zur Verfügung stellt, geschützt. Sofern nicht anders vermerkt, bedürfen die Verwendung, Reproduktion und Weitergabe dieser Dokumente, Grafiken und Software der schriftlichen Genehmigung durch den Betreiber der Webseite und seinen Vertragspartner.

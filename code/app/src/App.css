@@ -6,6 +6,7 @@ html body {
 
 body {
   background-color: rgb(239, 243, 243);
+  
 }
 
 .appDiv {
@@ -19,6 +20,8 @@ body {
 }
 
 .changingArea {
+  /* background-image: url("/images/Haker_Logo_ohneStrich_freigestellt_hellgrau.png");
+  background-size: cover; */
   box-sizing: border-box;
   min-height: 650px;
   position: relative;

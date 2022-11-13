@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import './Footer.css';
+import './Footer2.css';
 import {Link} from 'react-router-dom';
 import config from "../../config.json";
 
@@ -12,7 +12,7 @@ class Footer extends Component {
 
         return (
             <div className="footerDiv">
-                <img className = "logoInFooter" src="./images/Haker_Logo_ohneStrich_freigestellt_dunkelgrau.png" alt="blackLogo" />
+                <img className = "logoInFooter" src="./images/Haker_Logo_ohneStrich_freigestellt_weiss.png" alt="blackLogo" />
                 <div className = "divInFooter">
                     <p>Zahnarztpraxis Anne Haker</p>
                     <p>Köllnische Str. 63<br />

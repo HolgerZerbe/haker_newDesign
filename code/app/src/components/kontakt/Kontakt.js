@@ -22,7 +22,7 @@ class Kontakt extends Component {
                     Telefax: 030 - 63 22 96 20<br />
                     </p>
                     <p>Vor der Praxis stehen ausreichend Parkplätze zur Verfügung.</p>    
-                    <a className="linkKontakt" href="mailto:anne-haker@t-online.de">anne-haker@t-online.de</a>
+                    <a className="linkKontakt" href="mailto:praxis-anne-haker@web.de">praxis-anne-haker@web.de</a>
                     </div>
                     <div className="kartenBildUndLink">
                     <img className="kartenBild" src="./images/OpenStreetMap_KoellnischeStrasse.png" alt="Strassenkarte"></img>

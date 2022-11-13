@@ -18,12 +18,27 @@
     font-size: 12px;
 }
 
+.web-developer {
+    display: flex;
+}
+
+.foto_web-developer img {
+    display: inline-block;
+    margin-right: 10px;
+    height: 100px;
+    width: auto;
+}
+
 @media screen and (min-width: 300px) and (max-width: 999px) {
     .impressumDiv {
         padding: 20px 15px;
     }
     .pInImpressumDiv {
         font-size: 20px;
+    }
+    .web-developer {
+        display: flex;
+        flex-direction: column;
     }
     .haftung {
         font-size: 14px;

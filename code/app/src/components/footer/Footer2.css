@@ -1,0 +1,50 @@
+.footerDiv {
+    box-sizing: border-box;
+    color: rgb(0,0,0);
+    width: 100%;
+    background: rgb(138, 185, 43);
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkFooter {
+    color: rgb(0,0,0);
+    color: rgb(39, 39, 39);
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+
+.logoInFooter, .divInFooter {
+    width: 25%;
+}
+
+.spanFlex {   
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .logoInFooter {
+        display: none;
+    }
+    .divInFooter {
+        width: 45%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .footerDiv {
+        flex-direction: column;
+    }
+    .divInFooter {
+        width: 100%;
+        margin: 0 auto;
+    }
+  }

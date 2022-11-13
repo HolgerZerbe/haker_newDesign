@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Header2.css';
 import Navbar from '../navbar/Navbar';
 
 
