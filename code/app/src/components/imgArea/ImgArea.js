@@ -65,7 +65,7 @@ componentWillUnmount() {
         <div className="imageDiv"> 
             <img className="imageInImageDiv staticPhoto" style= {{"opacity": this.state.opacity3 }} src="./images/pexels-cedric-fauntleroy-4269362.jpg" alt="fadingPhoto1" />
             <img className="imageInImageDiv fadingPhoto1" style= {{"opacity": this.state.opacity1 }} src="./images/pexels-cedric-fauntleroy-4269700.jpg" alt="fadingPhoto2"/>
-            <img className="imageInImageDiv fadingPhoto2" style= {{"opacity": this.state.opacity2 }} src="./images/pexels-cedric-fauntleroy-4270367.jpg" alt="fadingPhoto3"/>
+            <img className="imageInImageDiv fadingPhoto2" style= {{"opacity": this.state.opacity2 }} src="./images/pexels-cedric-fauntleroy-4269497.jpg" alt="fadingPhoto3"/>
         </div>
     )
 }
