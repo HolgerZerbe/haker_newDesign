@@ -43,6 +43,8 @@ export default class Impressum extends Component {
 
                 <p><b>QUELLENANGABEN FÜR DIE VERWENDETEN BILDER:</b></p>
                 <p><a className="linkImpressum" href="https://www.pexels.com/de-de/@cedric-fauntleroy">www.pexels.com/de-de/@cedric-fauntleroy</a></p><br />
+                <p><b>LIZENZANGABEN FÜR DAS VERWENDTETE LOGO:</b></p>
+                <p><a className="linkImpressum" href="https://stock.adobe.com/de/images/zahne/37703602">https://stock.adobe.com/de/images/zahne/37703602</a></p><br />
 
 
                 <p><b>KONZEPT, DESIGN UND ENTWICKLUNG:</b></p>
